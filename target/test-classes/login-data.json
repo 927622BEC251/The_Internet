@@ -1,0 +1,14 @@
+[
+  {
+    "usernameKey": "form.username",
+    "passwordKey": "form.password",
+    "expectedMessageKey": "login.success.message",
+    "valid": true
+  },
+  {
+    "usernameKey": "invalid.username",
+    "passwordKey": "invalid.password",
+    "expectedMessageKey": "login.failure.message",
+    "valid": false
+  }
+]

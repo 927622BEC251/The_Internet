@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [InternetBot Selenium Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.internetbot.listeners.RetryTransformer"/>
+    <listener class-name="com.internetbot.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Interaction Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.internetbot.tests.HoverTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifyHoverDisplaysProfileName"/>
+        </methods>
+      </class> <!-- com.internetbot.tests.HoverTest -->
+    </classes>
+  </test> <!-- Interaction Tests(failed) -->
+</suite> <!-- Failed suite [InternetBot Selenium Suite] -->

@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="52" passed="50" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-12T08:53:43 IST" name="InternetBot Selenium Suite" finished-at="2026-05-12T08:57:19 IST" duration-ms="216383">
+    <groups>
+    </groups>
+    <test started-at="2026-05-12T08:53:43 IST" name="Authentication Tests" finished-at="2026-05-12T08:55:31 IST" duration-ms="108488">
+      <class name="com.internetbot.tests.AuthenticationTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:53:43 IST" name="launchBrowser" finished-at="2026-05-12T08:53:47 IST" duration-ms="3482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:53:43 IST" name="launchBrowser" finished-at="2026-05-12T08:53:46 IST" duration-ms="3307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyFormAuthenticationForValidAndInvalidCredentials(com.internetbot.data.LoginScenario)[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:53:47 IST" name="verifyFormAuthenticationForValidAndInvalidCredentials" data-provider="loginScenarios" finished-at="2026-05-12T08:53:59 IST" duration-ms="12204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.internetbot.data.LoginScenario@34f838a6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormAuthenticationForValidAndInvalidCredentials -->
+        <test-method signature="verifyFormAuthenticationForValidAndInvalidCredentials(com.internetbot.data.LoginScenario)[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:53:47 IST" name="verifyFormAuthenticationForValidAndInvalidCredentials" data-provider="loginScenarios" finished-at="2026-05-12T08:54:00 IST" duration-ms="13724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.internetbot.data.LoginScenario@36ff8f1d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormAuthenticationForValidAndInvalidCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:53:59 IST" name="closeBrowser" finished-at="2026-05-12T08:54:02 IST" duration-ms="3199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:00 IST" name="closeBrowser" finished-at="2026-05-12T08:54:02 IST" duration-ms="1490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:02 IST" name="launchBrowser" finished-at="2026-05-12T08:54:04 IST" duration-ms="1613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginButtonIsEnabled()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:04 IST" name="verifyLoginButtonIsEnabled" finished-at="2026-05-12T08:54:09 IST" duration-ms="5340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonIsEnabled -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:09 IST" name="closeBrowser" finished-at="2026-05-12T08:54:09 IST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:09 IST" name="launchBrowser" finished-at="2026-05-12T08:54:10 IST" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginButtonIsVisible()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:10 IST" name="verifyLoginButtonIsVisible" finished-at="2026-05-12T08:54:16 IST" duration-ms="5416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonIsVisible -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:16 IST" name="closeBrowser" finished-at="2026-05-12T08:54:16 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:16 IST" name="launchBrowser" finished-at="2026-05-12T08:54:17 IST" duration-ms="935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginPageHeadingIsDisplayed()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:17 IST" name="verifyLoginPageHeadingIsDisplayed" finished-at="2026-05-12T08:54:22 IST" duration-ms="5415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageHeadingIsDisplayed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:22 IST" name="closeBrowser" finished-at="2026-05-12T08:54:23 IST" duration-ms="1124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:23 IST" name="launchBrowser" finished-at="2026-05-12T08:54:24 IST" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLogoutRedirectsToLoginPage()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:24 IST" name="verifyLogoutRedirectsToLoginPage" finished-at="2026-05-12T08:54:36 IST" duration-ms="11336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutRedirectsToLoginPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:36 IST" name="closeBrowser" finished-at="2026-05-12T08:54:36 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:36 IST" name="launchBrowser" finished-at="2026-05-12T08:54:37 IST" duration-ms="871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyPasswordInputIsVisible()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:37 IST" name="verifyPasswordInputIsVisible" finished-at="2026-05-12T08:54:42 IST" duration-ms="5492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordInputIsVisible -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:42 IST" name="closeBrowser" finished-at="2026-05-12T08:54:43 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:43 IST" name="launchBrowser" finished-at="2026-05-12T08:54:44 IST" duration-ms="962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyPasswordInputUsesPasswordType()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:44 IST" name="verifyPasswordInputUsesPasswordType" finished-at="2026-05-12T08:54:49 IST" duration-ms="5776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordInputUsesPasswordType -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:49 IST" name="closeBrowser" finished-at="2026-05-12T08:54:50 IST" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:50 IST" name="launchBrowser" finished-at="2026-05-12T08:54:51 IST" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySuccessMessageAfterSuccessfulLogin()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:54:51 IST" name="verifySuccessMessageAfterSuccessfulLogin" finished-at="2026-05-12T08:55:01 IST" duration-ms="10325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessMessageAfterSuccessfulLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:55:01 IST" name="closeBrowser" finished-at="2026-05-12T08:55:02 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:55:02 IST" name="launchBrowser" finished-at="2026-05-12T08:55:02 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUsernameInputIsVisible()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:55:02 IST" name="verifyUsernameInputIsVisible" finished-at="2026-05-12T08:55:08 IST" duration-ms="5374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsernameInputIsVisible -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.AuthenticationTest@441772e]" started-at="2026-05-12T08:55:08 IST" name="closeBrowser" finished-at="2026-05-12T08:55:08 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.internetbot.tests.AuthenticationTest -->
+      <class name="com.internetbot.tests.BasicAuthTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.BasicAuthTest@1aa7ecca]" started-at="2026-05-12T08:55:08 IST" name="launchBrowser" finished-at="2026-05-12T08:55:09 IST" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyBasicAuthPageTitleIsTheInternet()[pri:0, instance:com.internetbot.tests.BasicAuthTest@1aa7ecca]" started-at="2026-05-12T08:55:09 IST" name="verifyBasicAuthPageTitleIsTheInternet" finished-at="2026-05-12T08:55:13 IST" duration-ms="4105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBasicAuthPageTitleIsTheInternet -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.BasicAuthTest@1aa7ecca]" started-at="2026-05-12T08:55:13 IST" name="closeBrowser" finished-at="2026-05-12T08:55:13 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.BasicAuthTest@1aa7ecca]" started-at="2026-05-12T08:55:13 IST" name="launchBrowser" finished-at="2026-05-12T08:55:14 IST" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyBasicAuthSuccessMessageIsVisible()[pri:0, instance:com.internetbot.tests.BasicAuthTest@1aa7ecca]" started-at="2026-05-12T08:55:14 IST" name="verifyBasicAuthSuccessMessageIsVisible" finished-at="2026-05-12T08:55:18 IST" duration-ms="3852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBasicAuthSuccessMessageIsVisible -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.BasicAuthTest@1aa7ecca]" started-at="2026-05-12T08:55:18 IST" name="closeBrowser" finished-at="2026-05-12T08:55:18 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.BasicAuthTest@1aa7ecca]" started-at="2026-05-12T08:55:18 IST" name="launchBrowser" finished-at="2026-05-12T08:55:19 IST" duration-ms="829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyBasicAuthUrlContainsProtectedPath()[pri:0, instance:com.internetbot.tests.BasicAuthTest@1aa7ecca]" started-at="2026-05-12T08:55:19 IST" name="verifyBasicAuthUrlContainsProtectedPath" finished-at="2026-05-12T08:55:23 IST" duration-ms="4134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBasicAuthUrlContainsProtectedPath -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.BasicAuthTest@1aa7ecca]" started-at="2026-05-12T08:55:23 IST" name="closeBrowser" finished-at="2026-05-12T08:55:25 IST" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.BasicAuthTest@1aa7ecca]" started-at="2026-05-12T08:55:25 IST" name="launchBrowser" finished-at="2026-05-12T08:55:26 IST" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyBasicAuthenticationSucceedsWithConfiguredCredentials()[pri:0, instance:com.internetbot.tests.BasicAuthTest@1aa7ecca]" started-at="2026-05-12T08:55:26 IST" name="verifyBasicAuthenticationSucceedsWithConfiguredCredentials" finished-at="2026-05-12T08:55:31 IST" duration-ms="4472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBasicAuthenticationSucceedsWithConfiguredCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.BasicAuthTest@1aa7ecca]" started-at="2026-05-12T08:55:31 IST" name="closeBrowser" finished-at="2026-05-12T08:55:31 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.internetbot.tests.BasicAuthTest -->
+    </test> <!-- Authentication Tests -->
+    <test started-at="2026-05-12T08:53:43 IST" name="Interaction Tests" finished-at="2026-05-12T08:57:18 IST" duration-ms="214984">
+      <class name="com.internetbot.tests.CheckboxTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:15 IST" name="launchBrowser" finished-at="2026-05-12T08:55:16 IST" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyBothCheckboxesCanBeSelectedTogether()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:16 IST" name="verifyBothCheckboxesCanBeSelectedTogether" finished-at="2026-05-12T08:55:23 IST" duration-ms="6342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBothCheckboxesCanBeSelectedTogether -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:23 IST" name="closeBrowser" finished-at="2026-05-12T08:55:23 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:23 IST" name="launchBrowser" finished-at="2026-05-12T08:55:24 IST" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyCheckboxPageShowsTwoCheckboxes()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:24 IST" name="verifyCheckboxPageShowsTwoCheckboxes" finished-at="2026-05-12T08:55:29 IST" duration-ms="5005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckboxPageShowsTwoCheckboxes -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:29 IST" name="closeBrowser" finished-at="2026-05-12T08:55:30 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:30 IST" name="launchBrowser" finished-at="2026-05-12T08:55:30 IST" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyFirstCheckboxCanBeCheckedAndUnchecked()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:30 IST" name="verifyFirstCheckboxCanBeCheckedAndUnchecked" finished-at="2026-05-12T08:55:39 IST" duration-ms="8389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstCheckboxCanBeCheckedAndUnchecked -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:39 IST" name="closeBrowser" finished-at="2026-05-12T08:55:40 IST" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:40 IST" name="launchBrowser" finished-at="2026-05-12T08:55:41 IST" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyFirstCheckboxDefaultUnchecked()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:41 IST" name="verifyFirstCheckboxDefaultUnchecked" finished-at="2026-05-12T08:55:45 IST" duration-ms="4155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstCheckboxDefaultUnchecked -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:45 IST" name="closeBrowser" finished-at="2026-05-12T08:55:45 IST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:45 IST" name="launchBrowser" finished-at="2026-05-12T08:55:47 IST" duration-ms="1990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySecondCheckboxDefaultChecked()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:47 IST" name="verifySecondCheckboxDefaultChecked" finished-at="2026-05-12T08:55:51 IST" duration-ms="3959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySecondCheckboxDefaultChecked -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:51 IST" name="closeBrowser" finished-at="2026-05-12T08:55:53 IST" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:53 IST" name="launchBrowser" finished-at="2026-05-12T08:55:54 IST" duration-ms="981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySecondCheckboxStateCanBeToggledAndReverified()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:55:54 IST" name="verifySecondCheckboxStateCanBeToggledAndReverified" finished-at="2026-05-12T08:56:01 IST" duration-ms="7891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySecondCheckboxStateCanBeToggledAndReverified -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.CheckboxTest@55141def]" started-at="2026-05-12T08:56:01 IST" name="closeBrowser" finished-at="2026-05-12T08:56:02 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.internetbot.tests.CheckboxTest -->
+      <class name="com.internetbot.tests.DropdownTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.DropdownTest@55182842]" started-at="2026-05-12T08:56:02 IST" name="launchBrowser" finished-at="2026-05-12T08:56:03 IST" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyDefaultDropdownOptionIsSelected()[pri:0, instance:com.internetbot.tests.DropdownTest@55182842]" started-at="2026-05-12T08:56:03 IST" name="verifyDefaultDropdownOptionIsSelected" finished-at="2026-05-12T08:56:08 IST" duration-ms="5032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDefaultDropdownOptionIsSelected -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.DropdownTest@55182842]" started-at="2026-05-12T08:56:08 IST" name="closeBrowser" finished-at="2026-05-12T08:56:09 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.DropdownTest@55182842]" started-at="2026-05-12T08:56:09 IST" name="launchBrowser" finished-at="2026-05-12T08:56:09 IST" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyDropdownIsVisible()[pri:0, instance:com.internetbot.tests.DropdownTest@55182842]" started-at="2026-05-12T08:56:09 IST" name="verifyDropdownIsVisible" finished-at="2026-05-12T08:56:15 IST" duration-ms="5180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownIsVisible -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.DropdownTest@55182842]" started-at="2026-05-12T08:56:15 IST" name="closeBrowser" finished-at="2026-05-12T08:56:15 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.DropdownTest@55182842]" started-at="2026-05-12T08:56:15 IST" name="launchBrowser" finished-at="2026-05-12T08:56:16 IST" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyDropdownLabelsContainExpectedOptions()[pri:0, instance:com.internetbot.tests.DropdownTest@55182842]" started-at="2026-05-12T08:56:16 IST" name="verifyDropdownLabelsContainExpectedOptions" finished-at="2026-05-12T08:56:21 IST" duration-ms="5136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownLabelsContainExpectedOptions -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.DropdownTest@55182842]" started-at="2026-05-12T08:56:21 IST" name="closeBrowser" finished-at="2026-05-12T08:56:21 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.DropdownTest@55182842]" started-at="2026-05-12T08:56:21 IST" name="launchBrowser" finished-at="2026-05-12T08:56:22 IST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyDropdownShowsCorrectNumberOfOptions()[pri:0, instance:com.internetbot.tests.DropdownTest@55182842]" started-at="2026-05-12T08:56:22 IST" name="verifyDropdownShowsCorrectNumberOfOptions" finished-at="2026-05-12T08:56:28 IST" duration-ms="5126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownShowsCorrectNumberOfOptions -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.DropdownTest@55182842]" started-at="2026-05-12T08:56:28 IST" name="closeBrowser" finished-at="2026-05-12T08:56:29 IST" duration-ms="1555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.DropdownTest@55182842]" started-at="2026-05-12T08:56:29 IST" name="launchBrowser" finished-at="2026-05-12T08:56:30 IST" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyEachDropdownOptionCanBeSelected()[pri:0, instance:com.internetbot.tests.DropdownTest@55182842]" started-at="2026-05-12T08:56:30 IST" name="verifyEachDropdownOptionCanBeSelected" finished-at="2026-05-12T08:56:38 IST" duration-ms="7310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEachDropdownOptionCanBeSelected -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.DropdownTest@55182842]" started-at="2026-05-12T08:56:38 IST" name="closeBrowser" finished-at="2026-05-12T08:56:38 IST" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.internetbot.tests.DropdownTest -->
+      <class name="com.internetbot.tests.HoverTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.HoverTest@3270d194]" started-at="2026-05-12T08:56:38 IST" name="launchBrowser" finished-at="2026-05-12T08:56:39 IST" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method retried="true" signature="verifyHoverDisplaysProfileName()[pri:0, instance:com.internetbot.tests.HoverTest@3270d194]" started-at="2026-05-12T08:56:39 IST" name="verifyHoverDisplaysProfileName" finished-at="2026-05-12T08:57:10 IST" duration-ms="31575" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: .figure:nth-of-type(1) .figcaption h5 (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\Yoges\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65008}, goog:processID: 5008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65008/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 293aaa3ddc50863fe64d5792a6c97fac]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .figure:nth-of-type(1) .figcaption h5 (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\Yoges\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65008}, goog:processID: 5008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65008/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 293aaa3ddc50863fe64d5792a6c97fac
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.internetbot.pages.BasePage.waitForVisible(BasePage.java:33)
+at com.internetbot.pages.BasePage.textOf(BasePage.java:79)
+at com.internetbot.pages.HoverPage.hoverFirstProfileAndGetName(HoverPage.java:25)
+at com.internetbot.tests.HoverTest.verifyHoverDisplaysProfileName(HoverTest.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHoverDisplaysProfileName -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.HoverTest@3270d194]" started-at="2026-05-12T08:57:10 IST" name="closeBrowser" finished-at="2026-05-12T08:57:11 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.HoverTest@3270d194]" started-at="2026-05-12T08:57:11 IST" name="launchBrowser" finished-at="2026-05-12T08:57:11 IST" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyHoverDisplaysProfileName()[pri:0, instance:com.internetbot.tests.HoverTest@3270d194]" started-at="2026-05-12T08:57:11 IST" name="verifyHoverDisplaysProfileName" finished-at="2026-05-12T08:57:17 IST" duration-ms="6030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHoverDisplaysProfileName -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.HoverTest@3270d194]" started-at="2026-05-12T08:57:17 IST" name="closeBrowser" finished-at="2026-05-12T08:57:18 IST" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.internetbot.tests.HoverTest -->
+      <class name="com.internetbot.tests.JavaScriptAlertsTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:53:43 IST" name="launchBrowser" finished-at="2026-05-12T08:53:47 IST" duration-ms="3595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyAlertButtonIsVisible()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:53:47 IST" name="verifyAlertButtonIsVisible" finished-at="2026-05-12T08:53:54 IST" duration-ms="7299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlertButtonIsVisible -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:53:54 IST" name="closeBrowser" finished-at="2026-05-12T08:53:56 IST" duration-ms="1622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:53:56 IST" name="launchBrowser" finished-at="2026-05-12T08:53:57 IST" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyAlertPageHeadingIsDisplayed()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:53:57 IST" name="verifyAlertPageHeadingIsDisplayed" finished-at="2026-05-12T08:54:02 IST" duration-ms="5299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlertPageHeadingIsDisplayed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:02 IST" name="closeBrowser" finished-at="2026-05-12T08:54:05 IST" duration-ms="2572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:05 IST" name="launchBrowser" finished-at="2026-05-12T08:54:06 IST" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyConfirmButtonIsVisible()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:06 IST" name="verifyConfirmButtonIsVisible" finished-at="2026-05-12T08:54:11 IST" duration-ms="5069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConfirmButtonIsVisible -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:11 IST" name="closeBrowser" finished-at="2026-05-12T08:54:12 IST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:12 IST" name="launchBrowser" finished-at="2026-05-12T08:54:13 IST" duration-ms="1252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyJavaScriptAlertCanBeAccepted()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:13 IST" name="verifyJavaScriptAlertCanBeAccepted" finished-at="2026-05-12T08:54:21 IST" duration-ms="7615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJavaScriptAlertCanBeAccepted -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:21 IST" name="closeBrowser" finished-at="2026-05-12T08:54:21 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:21 IST" name="launchBrowser" finished-at="2026-05-12T08:54:22 IST" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyJavaScriptConfirmCanBeAccepted()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:22 IST" name="verifyJavaScriptConfirmCanBeAccepted" finished-at="2026-05-12T08:54:29 IST" duration-ms="7435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJavaScriptConfirmCanBeAccepted -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:29 IST" name="closeBrowser" finished-at="2026-05-12T08:54:30 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:30 IST" name="launchBrowser" finished-at="2026-05-12T08:54:31 IST" duration-ms="1159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyJavaScriptConfirmCanBeDismissed()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:31 IST" name="verifyJavaScriptConfirmCanBeDismissed" finished-at="2026-05-12T08:54:38 IST" duration-ms="6825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJavaScriptConfirmCanBeDismissed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:38 IST" name="closeBrowser" finished-at="2026-05-12T08:54:39 IST" duration-ms="1306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:39 IST" name="launchBrowser" finished-at="2026-05-12T08:54:40 IST" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyJavaScriptPromptAcceptsEnteredText()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:40 IST" name="verifyJavaScriptPromptAcceptsEnteredText" finished-at="2026-05-12T08:54:48 IST" duration-ms="8019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJavaScriptPromptAcceptsEnteredText -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:48 IST" name="closeBrowser" finished-at="2026-05-12T08:54:48 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:48 IST" name="launchBrowser" finished-at="2026-05-12T08:54:49 IST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyJavaScriptPromptCanBeDismissed()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:49 IST" name="verifyJavaScriptPromptCanBeDismissed" finished-at="2026-05-12T08:54:56 IST" duration-ms="7301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJavaScriptPromptCanBeDismissed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:56 IST" name="closeBrowser" finished-at="2026-05-12T08:54:56 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:56 IST" name="launchBrowser" finished-at="2026-05-12T08:54:57 IST" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyPromptButtonIsVisible()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:54:57 IST" name="verifyPromptButtonIsVisible" finished-at="2026-05-12T08:55:02 IST" duration-ms="4780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPromptButtonIsVisible -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:55:02 IST" name="closeBrowser" finished-at="2026-05-12T08:55:03 IST" duration-ms="1038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:55:03 IST" name="launchBrowser" finished-at="2026-05-12T08:55:04 IST" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyResultTextChangesWhenDifferentAlertTypesAreUsed()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:55:04 IST" name="verifyResultTextChangesWhenDifferentAlertTypesAreUsed" finished-at="2026-05-12T08:55:15 IST" duration-ms="10354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResultTextChangesWhenDifferentAlertTypesAreUsed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.JavaScriptAlertsTest@47eaca72]" started-at="2026-05-12T08:55:15 IST" name="closeBrowser" finished-at="2026-05-12T08:55:15 IST" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.internetbot.tests.JavaScriptAlertsTest -->
+    </test> <!-- Interaction Tests -->
+    <test started-at="2026-05-12T08:55:32 IST" name="File And Dynamic Tests" finished-at="2026-05-12T08:57:19 IST" duration-ms="106911">
+      <class name="com.internetbot.tests.DisappearingElementsTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.DisappearingElementsTest@5fe94a96]" started-at="2026-05-12T08:57:00 IST" name="launchBrowser" finished-at="2026-05-12T08:57:01 IST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyDisappearingElementReappearsOnRefresh()[pri:0, instance:com.internetbot.tests.DisappearingElementsTest@5fe94a96]" started-at="2026-05-12T08:57:01 IST" name="verifyDisappearingElementReappearsOnRefresh" finished-at="2026-05-12T08:57:06 IST" duration-ms="5277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisappearingElementReappearsOnRefresh -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.DisappearingElementsTest@5fe94a96]" started-at="2026-05-12T08:57:06 IST" name="closeBrowser" finished-at="2026-05-12T08:57:06 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.internetbot.tests.DisappearingElementsTest -->
+      <class name="com.internetbot.tests.ScreenshotFailureTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.ScreenshotFailureTest@765d7657]" started-at="2026-05-12T08:57:12 IST" name="launchBrowser" finished-at="2026-05-12T08:57:13 IST" duration-ms="963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginPageOpensForScreenshotDemo()[pri:0, instance:com.internetbot.tests.ScreenshotFailureTest@765d7657]" started-at="2026-05-12T08:57:13 IST" name="verifyLoginPageOpensForScreenshotDemo" finished-at="2026-05-12T08:57:18 IST" duration-ms="5043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageOpensForScreenshotDemo -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.ScreenshotFailureTest@765d7657]" started-at="2026-05-12T08:57:18 IST" name="closeBrowser" finished-at="2026-05-12T08:57:19 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.internetbot.tests.ScreenshotFailureTest -->
+      <class name="com.internetbot.tests.DynamicLoadingTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.DynamicLoadingTest@639c2c1d]" started-at="2026-05-12T08:56:26 IST" name="launchBrowser" finished-at="2026-05-12T08:56:27 IST" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyDynamicElementAppearsAfterStart()[pri:0, instance:com.internetbot.tests.DynamicLoadingTest@639c2c1d]" started-at="2026-05-12T08:56:27 IST" name="verifyDynamicElementAppearsAfterStart" finished-at="2026-05-12T08:56:38 IST" duration-ms="10650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDynamicElementAppearsAfterStart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.DynamicLoadingTest@639c2c1d]" started-at="2026-05-12T08:56:38 IST" name="closeBrowser" finished-at="2026-05-12T08:56:38 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.DynamicLoadingTest@639c2c1d]" started-at="2026-05-12T08:56:38 IST" name="launchBrowser" finished-at="2026-05-12T08:56:40 IST" duration-ms="1454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyDynamicLoadingHeadingIsDisplayed()[pri:0, instance:com.internetbot.tests.DynamicLoadingTest@639c2c1d]" started-at="2026-05-12T08:56:40 IST" name="verifyDynamicLoadingHeadingIsDisplayed" finished-at="2026-05-12T08:56:44 IST" duration-ms="4650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDynamicLoadingHeadingIsDisplayed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.DynamicLoadingTest@639c2c1d]" started-at="2026-05-12T08:56:44 IST" name="closeBrowser" finished-at="2026-05-12T08:56:44 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.DynamicLoadingTest@639c2c1d]" started-at="2026-05-12T08:56:44 IST" name="launchBrowser" finished-at="2026-05-12T08:56:46 IST" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyStartButtonIsVisible()[pri:0, instance:com.internetbot.tests.DynamicLoadingTest@639c2c1d]" started-at="2026-05-12T08:56:46 IST" name="verifyStartButtonIsVisible" finished-at="2026-05-12T08:56:51 IST" duration-ms="5604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStartButtonIsVisible -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.DynamicLoadingTest@639c2c1d]" started-at="2026-05-12T08:56:51 IST" name="closeBrowser" finished-at="2026-05-12T08:56:52 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.DynamicLoadingTest@639c2c1d]" started-at="2026-05-12T08:56:52 IST" name="launchBrowser" finished-at="2026-05-12T08:56:52 IST" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyStartButtonTextIsCorrect()[pri:0, instance:com.internetbot.tests.DynamicLoadingTest@639c2c1d]" started-at="2026-05-12T08:56:52 IST" name="verifyStartButtonTextIsCorrect" finished-at="2026-05-12T08:57:00 IST" duration-ms="7264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStartButtonTextIsCorrect -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.DynamicLoadingTest@639c2c1d]" started-at="2026-05-12T08:57:00 IST" name="closeBrowser" finished-at="2026-05-12T08:57:00 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.internetbot.tests.DynamicLoadingTest -->
+      <class name="com.internetbot.tests.FileUploadTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:55:32 IST" name="launchBrowser" finished-at="2026-05-12T08:55:34 IST" duration-ms="2036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyFileInputIsVisible()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:55:34 IST" name="verifyFileInputIsVisible" finished-at="2026-05-12T08:55:39 IST" duration-ms="4986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFileInputIsVisible -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:55:39 IST" name="closeBrowser" finished-at="2026-05-12T08:55:40 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:55:40 IST" name="launchBrowser" finished-at="2026-05-12T08:55:42 IST" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySupportedFileCanBeUploaded()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:55:42 IST" name="verifySupportedFileCanBeUploaded" finished-at="2026-05-12T08:55:48 IST" duration-ms="6720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySupportedFileCanBeUploaded -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:55:48 IST" name="closeBrowser" finished-at="2026-05-12T08:55:50 IST" duration-ms="1392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:55:50 IST" name="launchBrowser" finished-at="2026-05-12T08:55:51 IST" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUnsupportedFileTypeIsHandledGracefully()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:55:51 IST" name="verifyUnsupportedFileTypeIsHandledGracefully" finished-at="2026-05-12T08:55:58 IST" duration-ms="6895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnsupportedFileTypeIsHandledGracefully -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:55:58 IST" name="closeBrowser" finished-at="2026-05-12T08:55:58 IST" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:55:58 IST" name="launchBrowser" finished-at="2026-05-12T08:56:00 IST" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUploadButtonIsEnabled()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:56:00 IST" name="verifyUploadButtonIsEnabled" finished-at="2026-05-12T08:56:04 IST" duration-ms="3996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUploadButtonIsEnabled -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:56:04 IST" name="closeBrowser" finished-at="2026-05-12T08:56:05 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:56:05 IST" name="launchBrowser" finished-at="2026-05-12T08:56:06 IST" duration-ms="1485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUploadButtonIsVisible()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:56:06 IST" name="verifyUploadButtonIsVisible" finished-at="2026-05-12T08:56:11 IST" duration-ms="5061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUploadButtonIsVisible -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:56:11 IST" name="closeBrowser" finished-at="2026-05-12T08:56:12 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:56:12 IST" name="launchBrowser" finished-at="2026-05-12T08:56:12 IST" duration-ms="810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUploadPageTitleAndFormAreVisibleBeforeInteraction()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:56:12 IST" name="verifyUploadPageTitleAndFormAreVisibleBeforeInteraction" finished-at="2026-05-12T08:56:18 IST" duration-ms="5213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUploadPageTitleAndFormAreVisibleBeforeInteraction -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:56:18 IST" name="closeBrowser" finished-at="2026-05-12T08:56:18 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:56:18 IST" name="launchBrowser" finished-at="2026-05-12T08:56:19 IST" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUploadSuccessHeadingAfterUpload()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:56:19 IST" name="verifyUploadSuccessHeadingAfterUpload" finished-at="2026-05-12T08:56:26 IST" duration-ms="7163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUploadSuccessHeadingAfterUpload -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.FileUploadTest@515c6049]" started-at="2026-05-12T08:56:26 IST" name="closeBrowser" finished-at="2026-05-12T08:56:26 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.internetbot.tests.FileUploadTest -->
+      <class name="com.internetbot.tests.BrokenImagesTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.internetbot.tests.BrokenImagesTest@443118b0]" started-at="2026-05-12T08:57:06 IST" name="launchBrowser" finished-at="2026-05-12T08:57:07 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyBrokenImagesCanBeDetected()[pri:0, instance:com.internetbot.tests.BrokenImagesTest@443118b0]" started-at="2026-05-12T08:57:07 IST" name="verifyBrokenImagesCanBeDetected" finished-at="2026-05-12T08:57:12 IST" duration-ms="5184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrokenImagesCanBeDetected -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.internetbot.tests.BrokenImagesTest@443118b0]" started-at="2026-05-12T08:57:12 IST" name="closeBrowser" finished-at="2026-05-12T08:57:12 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.internetbot.tests.BrokenImagesTest -->
+    </test> <!-- File And Dynamic Tests -->
+  </suite> <!-- InternetBot Selenium Suite -->
+</testng-results>

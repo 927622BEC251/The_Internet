@@ -1,0 +1,254 @@
+<html>
+<head>
+<title>TestNG:  Interaction Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Interaction Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/1</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 12 08:53:43 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>214 seconds (214984 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.internetbot.tests.JavaScriptAlertsTest.verifyJavaScriptPromptAcceptsEnteredText()'><b>verifyJavaScriptPromptAcceptsEnteredText</b><br>Test class: com.internetbot.tests.JavaScriptAlertsTest</td>
+<td></td>
+<td>8</td>
+<td>com.internetbot.tests.JavaScriptAlertsTest@47eaca72</td></tr>
+<tr>
+<td title='com.internetbot.tests.CheckboxTest.verifyFirstCheckboxCanBeCheckedAndUnchecked()'><b>verifyFirstCheckboxCanBeCheckedAndUnchecked</b><br>Test class: com.internetbot.tests.CheckboxTest</td>
+<td></td>
+<td>8</td>
+<td>com.internetbot.tests.CheckboxTest@55141def</td></tr>
+<tr>
+<td title='com.internetbot.tests.JavaScriptAlertsTest.verifyAlertPageHeadingIsDisplayed()'><b>verifyAlertPageHeadingIsDisplayed</b><br>Test class: com.internetbot.tests.JavaScriptAlertsTest</td>
+<td></td>
+<td>5</td>
+<td>com.internetbot.tests.JavaScriptAlertsTest@47eaca72</td></tr>
+<tr>
+<td title='com.internetbot.tests.DropdownTest.verifyDefaultDropdownOptionIsSelected()'><b>verifyDefaultDropdownOptionIsSelected</b><br>Test class: com.internetbot.tests.DropdownTest</td>
+<td></td>
+<td>5</td>
+<td>com.internetbot.tests.DropdownTest@55182842</td></tr>
+<tr>
+<td title='com.internetbot.tests.DropdownTest.verifyDropdownShowsCorrectNumberOfOptions()'><b>verifyDropdownShowsCorrectNumberOfOptions</b><br>Test class: com.internetbot.tests.DropdownTest</td>
+<td></td>
+<td>5</td>
+<td>com.internetbot.tests.DropdownTest@55182842</td></tr>
+<tr>
+<td title='com.internetbot.tests.JavaScriptAlertsTest.verifyPromptButtonIsVisible()'><b>verifyPromptButtonIsVisible</b><br>Test class: com.internetbot.tests.JavaScriptAlertsTest</td>
+<td></td>
+<td>4</td>
+<td>com.internetbot.tests.JavaScriptAlertsTest@47eaca72</td></tr>
+<tr>
+<td title='com.internetbot.tests.CheckboxTest.verifyCheckboxPageShowsTwoCheckboxes()'><b>verifyCheckboxPageShowsTwoCheckboxes</b><br>Test class: com.internetbot.tests.CheckboxTest</td>
+<td></td>
+<td>5</td>
+<td>com.internetbot.tests.CheckboxTest@55141def</td></tr>
+<tr>
+<td title='com.internetbot.tests.JavaScriptAlertsTest.verifyJavaScriptConfirmCanBeAccepted()'><b>verifyJavaScriptConfirmCanBeAccepted</b><br>Test class: com.internetbot.tests.JavaScriptAlertsTest</td>
+<td></td>
+<td>7</td>
+<td>com.internetbot.tests.JavaScriptAlertsTest@47eaca72</td></tr>
+<tr>
+<td title='com.internetbot.tests.JavaScriptAlertsTest.verifyResultTextChangesWhenDifferentAlertTypesAreUsed()'><b>verifyResultTextChangesWhenDifferentAlertTypesAreUsed</b><br>Test class: com.internetbot.tests.JavaScriptAlertsTest</td>
+<td></td>
+<td>10</td>
+<td>com.internetbot.tests.JavaScriptAlertsTest@47eaca72</td></tr>
+<tr>
+<td title='com.internetbot.tests.JavaScriptAlertsTest.verifyJavaScriptConfirmCanBeDismissed()'><b>verifyJavaScriptConfirmCanBeDismissed</b><br>Test class: com.internetbot.tests.JavaScriptAlertsTest</td>
+<td></td>
+<td>6</td>
+<td>com.internetbot.tests.JavaScriptAlertsTest@47eaca72</td></tr>
+<tr>
+<td title='com.internetbot.tests.DropdownTest.verifyDropdownIsVisible()'><b>verifyDropdownIsVisible</b><br>Test class: com.internetbot.tests.DropdownTest</td>
+<td></td>
+<td>5</td>
+<td>com.internetbot.tests.DropdownTest@55182842</td></tr>
+<tr>
+<td title='com.internetbot.tests.JavaScriptAlertsTest.verifyConfirmButtonIsVisible()'><b>verifyConfirmButtonIsVisible</b><br>Test class: com.internetbot.tests.JavaScriptAlertsTest</td>
+<td></td>
+<td>5</td>
+<td>com.internetbot.tests.JavaScriptAlertsTest@47eaca72</td></tr>
+<tr>
+<td title='com.internetbot.tests.CheckboxTest.verifyFirstCheckboxDefaultUnchecked()'><b>verifyFirstCheckboxDefaultUnchecked</b><br>Test class: com.internetbot.tests.CheckboxTest</td>
+<td></td>
+<td>4</td>
+<td>com.internetbot.tests.CheckboxTest@55141def</td></tr>
+<tr>
+<td title='com.internetbot.tests.DropdownTest.verifyEachDropdownOptionCanBeSelected()'><b>verifyEachDropdownOptionCanBeSelected</b><br>Test class: com.internetbot.tests.DropdownTest</td>
+<td></td>
+<td>7</td>
+<td>com.internetbot.tests.DropdownTest@55182842</td></tr>
+<tr>
+<td title='com.internetbot.tests.JavaScriptAlertsTest.verifyJavaScriptPromptCanBeDismissed()'><b>verifyJavaScriptPromptCanBeDismissed</b><br>Test class: com.internetbot.tests.JavaScriptAlertsTest</td>
+<td></td>
+<td>7</td>
+<td>com.internetbot.tests.JavaScriptAlertsTest@47eaca72</td></tr>
+<tr>
+<td title='com.internetbot.tests.CheckboxTest.verifySecondCheckboxStateCanBeToggledAndReverified()'><b>verifySecondCheckboxStateCanBeToggledAndReverified</b><br>Test class: com.internetbot.tests.CheckboxTest</td>
+<td></td>
+<td>7</td>
+<td>com.internetbot.tests.CheckboxTest@55141def</td></tr>
+<tr>
+<td title='com.internetbot.tests.DropdownTest.verifyDropdownLabelsContainExpectedOptions()'><b>verifyDropdownLabelsContainExpectedOptions</b><br>Test class: com.internetbot.tests.DropdownTest</td>
+<td></td>
+<td>5</td>
+<td>com.internetbot.tests.DropdownTest@55182842</td></tr>
+<tr>
+<td title='com.internetbot.tests.CheckboxTest.verifySecondCheckboxDefaultChecked()'><b>verifySecondCheckboxDefaultChecked</b><br>Test class: com.internetbot.tests.CheckboxTest</td>
+<td></td>
+<td>3</td>
+<td>com.internetbot.tests.CheckboxTest@55141def</td></tr>
+<tr>
+<td title='com.internetbot.tests.JavaScriptAlertsTest.verifyAlertButtonIsVisible()'><b>verifyAlertButtonIsVisible</b><br>Test class: com.internetbot.tests.JavaScriptAlertsTest</td>
+<td></td>
+<td>7</td>
+<td>com.internetbot.tests.JavaScriptAlertsTest@47eaca72</td></tr>
+<tr>
+<td title='com.internetbot.tests.HoverTest.verifyHoverDisplaysProfileName()'><b>verifyHoverDisplaysProfileName</b><br>Test class: com.internetbot.tests.HoverTest</td>
+<td></td>
+<td>6</td>
+<td>com.internetbot.tests.HoverTest@3270d194</td></tr>
+<tr>
+<td title='com.internetbot.tests.JavaScriptAlertsTest.verifyJavaScriptAlertCanBeAccepted()'><b>verifyJavaScriptAlertCanBeAccepted</b><br>Test class: com.internetbot.tests.JavaScriptAlertsTest</td>
+<td></td>
+<td>7</td>
+<td>com.internetbot.tests.JavaScriptAlertsTest@47eaca72</td></tr>
+<tr>
+<td title='com.internetbot.tests.CheckboxTest.verifyBothCheckboxesCanBeSelectedTogether()'><b>verifyBothCheckboxesCanBeSelectedTogether</b><br>Test class: com.internetbot.tests.CheckboxTest</td>
+<td></td>
+<td>6</td>
+<td>com.internetbot.tests.CheckboxTest@55141def</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.internetbot.tests.HoverTest.verifyHoverDisplaysProfileName()'><b>verifyHoverDisplaysProfileName</b><br>Test class: com.internetbot.tests.HoverTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .figure:nth-of-type(1) .figcaption h5 (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\Yoges\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65008}, goog:processID: 5008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65008/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 293aaa3ddc50863fe64d5792a6c97fac
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.internetbot.pages.BasePage.waitForVisible(BasePage.java:33)
+	at com.internetbot.pages.BasePage.textOf(BasePage.java:79)
+	at com.internetbot.pages.HoverPage.hoverFirstProfileAndGetName(HoverPage.java:25)
+	at com.internetbot.tests.HoverTest.verifyHoverDisplaysProfileName(HoverTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1747508135", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1747508135'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .figure:nth-of-type(1) .figcaption h5 (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\Yoges\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65008}, goog:processID: 5008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65008/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 293aaa3ddc50863fe64d5792a6c97fac
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.internetbot.pages.BasePage.waitForVisible(BasePage.java:33)
+	at com.internetbot.pages.BasePage.textOf(BasePage.java:79)
+	at com.internetbot.pages.HoverPage.hoverFirstProfileAndGetName(HoverPage.java:25)
+	at com.internetbot.tests.HoverTest.verifyHoverDisplaysProfileName(HoverTest.java:15)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>31</td>
+<td>com.internetbot.tests.HoverTest@3270d194</td></tr>
+</table><p>
+</body>
+</html>

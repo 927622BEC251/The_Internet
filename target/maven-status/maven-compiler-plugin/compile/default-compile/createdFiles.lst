@@ -1,0 +1,15 @@
+com\internetbot\pages\SecureAreaPage.class
+com\internetbot\pages\BasicAuthPage.class
+com\internetbot\pages\DropdownPage.class
+com\internetbot\pages\DisappearingElementsPage.class
+com\internetbot\config\TestDataReader.class
+com\internetbot\pages\LoginPage.class
+com\internetbot\pages\AlertPage.class
+com\internetbot\pages\CheckboxPage.class
+com\internetbot\pages\HoverPage.class
+com\internetbot\config\ConfigReader.class
+com\internetbot\pages\BrokenImagesPage.class
+com\internetbot\pages\DynamicLoadingPage.class
+com\internetbot\pages\BasePage.class
+com\internetbot\pages\FileUploadPage.class
+com\internetbot\driver\DriverFactory.class

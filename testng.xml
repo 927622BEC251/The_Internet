@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="InternetBot Selenium Suite" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="com.internetbot.listeners.RetryTransformer"/>
+        <listener class-name="com.internetbot.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Authentication Tests">
+        <classes>
+            <class name="com.internetbot.tests.AuthenticationTest"/>
+            <class name="com.internetbot.tests.BasicAuthTest"/>
+        </classes>
+    </test>
+
+    <test name="Interaction Tests">
+        <classes>
+            <class name="com.internetbot.tests.JavaScriptAlertsTest"/>
+            <class name="com.internetbot.tests.CheckboxTest"/>
+            <class name="com.internetbot.tests.DropdownTest"/>
+            <class name="com.internetbot.tests.HoverTest"/>
+        </classes>
+    </test>
+
+    <test name="File And Dynamic Tests">
+        <classes>
+            <class name="com.internetbot.tests.FileUploadTest"/>
+            <class name="com.internetbot.tests.DynamicLoadingTest"/>
+            <class name="com.internetbot.tests.DisappearingElementsTest"/>
+            <class name="com.internetbot.tests.BrokenImagesTest"/>
+            <class name="com.internetbot.tests.ScreenshotFailureTest"/>
+        </classes>
+    </test>
+</suite>
